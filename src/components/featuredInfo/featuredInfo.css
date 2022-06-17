@@ -1,0 +1,59 @@
+.featured-info{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 30px;
+
+}
+
+.featured-item{
+    display: flex;
+    flex: 1;
+    gap: 15px;
+    cursor: pointer;
+    flex-direction: column;
+    padding: 30px;
+    border-radius: 10px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.featured-title{
+    font-size: 20px;
+}
+
+.money-info{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.money-info > span{
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.ratio{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.ratio > span{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.arrow{
+    color: red;
+    font-size: 14px;
+}
+
+.arrow.positive{
+    color: green;
+}
+
+.featured-sub{
+    font-size: 15;
+    color: gray;
+}

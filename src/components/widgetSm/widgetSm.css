@@ -1,0 +1,53 @@
+.widget-sm{
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.widget-sm-title{
+    margin-bottom: 20px;
+}
+.member{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.member-info{
+    display: flex;
+    flex-direction: column;
+}
+.member-name{
+    font-weight: 600;
+}
+.member-job{
+    color: gray;
+}
+.member-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.display-btn{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: gray;
+    padding: 8px 10px;
+    border: none;
+    border-radius: 10px;
+    background-color: #eeeef7;
+    color: #555;
+}
+
+
+.visibility-icon{
+    font-size: 16px !important;
+}

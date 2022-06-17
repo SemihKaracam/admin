@@ -1,0 +1,139 @@
+.product {
+    flex: 5;
+    padding: 20px;
+}
+
+.product-edit-details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.product-create-btn {
+    cursor: pointer;
+    font-size: 16px;
+    padding: 10px;
+    width: 100px;
+    color: white;
+    border-radius: 5px;
+    background-color: #018082;
+    border: none;
+}
+
+
+
+.product-info-container {
+    display: flex;
+    gap: 30px;
+    margin-bottom: 30px;
+}
+
+.product-page-title {
+    font-size: 32px;
+}
+
+.product-page-left {
+    flex: 1;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product-page-img {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.product-page-product {
+    display: flex;
+    align-items: center;
+    gap: 20px
+}
+
+.product-page-product>span {
+    font-weight: 600;
+}
+
+.product-right-flex {
+    margin-top: 20px;
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.product-right-flex>span:nth-child(1) {
+    font-weight: 600;
+}
+
+.product-right-flex>span:nth-child(2) {
+    text-align: right;
+}
+
+.product-page-right {
+    flex: 1;
+    padding: 20px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    border-radius: 10px;
+}
+
+
+.product-page-bottom {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px;
+    -webkit-box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+    box-shadow: 0px 0px 15px -10px rgba(0, 0, 0, 0.75);
+}
+
+.product-upload-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.product-upload-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+.product-form-input-container {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    margin-bottom: 15px;
+}
+
+.product-form-input-container>label {
+    color: gray;
+    font-size: 16px;
+}
+
+.product-form-input-container>input {
+    padding: 5px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.product-form-input-container>input:focus {
+    outline: none;
+}
+
+.product-page-update-btn {
+    position: absolute;
+    bottom: 20px;
+    right: 70px;
+    padding: 7px;
+    width: 120px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 600;
+}

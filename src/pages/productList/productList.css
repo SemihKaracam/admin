@@ -1,0 +1,39 @@
+.product-list{
+    flex: 5;
+}
+
+.product-list-product{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.product-list-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+
+.product-list-delete-btn{
+    color: red;   
+    cursor: pointer;
+}
+
+.product-list-edit-btn{
+    padding: 5px 10px ;
+    background-color: #3bb077;
+    cursor: pointer;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.product-action{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}

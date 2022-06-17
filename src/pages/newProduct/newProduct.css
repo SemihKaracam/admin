@@ -1,0 +1,43 @@
+.newproduct{
+    flex: 5;
+}
+.newproduct-title{
+    font-size: 32px;
+    font-weight: 600;
+}
+
+.newproduct-form{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    gap: 15px;
+}
+
+.newproduct-form > button{
+    padding: 10px;
+    width: 20%;
+    border-radius: 10px;
+    background-color: darkblue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.newproduct-input-container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.newproduct-input-container > label{
+    color: gray;
+    font-weight: 600;
+}
+
+.newproduct-input-container > input{
+    padding: 10px;
+}
+
+.newproduct-input-container > select{
+    padding: 10px;
+}
